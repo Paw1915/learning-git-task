@@ -15,4 +15,4 @@ for key in shopping_list:
     print(f"Idę do ", key.capitalize(), ", kupuję tu następujące rzeczy:", shopping_list[key],)
 print("W sumie kupuję", count, "produktów.")
 
-print("bambaryła)
+print("bambaryła")
