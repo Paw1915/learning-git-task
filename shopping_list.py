@@ -10,3 +10,7 @@ for key, value in shopping_list.items():
     if isinstance(value, list):
          count += len(value)
 
+print("Lista zakupów:")
+for key in shopping_list:
+    print(f"Idę do ", key.capitalize(), ", kupuję tu następujące rzeczy:", shopping_list[key],)
+print("W sumie kupuję", count, "produktów.")
